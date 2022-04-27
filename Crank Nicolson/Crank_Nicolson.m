@@ -53,7 +53,7 @@ for inumber_mesh=1:number_mesh
     u=zeros(Nx-1,1);
     for time=1:Nt+1
         %------------------------------------------------------------------
-        % Creat matrix F
+        % Create matrix F
         %------------------------------------------------------------------
         for i=2:Nx
             F(i-1)=k*f(x(i),t(time));
